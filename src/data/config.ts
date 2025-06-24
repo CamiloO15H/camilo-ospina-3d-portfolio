@@ -41,7 +41,7 @@ const config = {
 
   // 4. Tu información básica
   author: "Camilo Ospina",
-  email: "camiloospi12@gmail.com",
+  email: "kmi2000@live.com",
   // Si tienes un dominio personalizado para tu portafolio, ponlo aquí.
   // Por ahora, puedes dejar un placeholder o tu GitHub Pages/Vercel URL una vez lo despliegues.
   site: "https://camilo-ospina-3d-portfolio.vercel.app/", // O tu futuro dominio/URL de Vercel/GitHub Pages
