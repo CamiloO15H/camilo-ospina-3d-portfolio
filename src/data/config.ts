@@ -35,6 +35,8 @@ const config = {
     "Emazon",
     "CodeQuest",
     "Ingeniería de Sistemas",
+    "Ingeniero de Sistemas",
+    "Desarrollador de Software",
   ],
 
   // 4. Tu información básica
@@ -42,7 +44,7 @@ const config = {
   email: "camiloospi12@gmail.com",
   // Si tienes un dominio personalizado para tu portafolio, ponlo aquí.
   // Por ahora, puedes dejar un placeholder o tu GitHub Pages/Vercel URL una vez lo despliegues.
-  site: "https://camiloospina.vercel.app", // O tu futuro dominio/URL de Vercel/GitHub Pages
+  site: "https://camilo-ospina-3d-portfolio.vercel.app/", // O tu futuro dominio/URL de Vercel/GitHub Pages
 
   // 5. Imagen para compartir en redes sociales (Open Graph Image)
   // Asegúrate de crear una imagen personalizada (ej. 1200x630px) y guardarla en public/assets/seo/og-image.png
