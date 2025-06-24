@@ -76,14 +76,14 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    Desarrollador Full Stack | Especializado en Microservicios, IA y QA
+                    Desarrollador Full Stack | Especializado en Java, IA y QA.
                   </p>
                 </BlurIn>
               </div>
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1O97WCk2DrO9x6SHOqf7LvRbmHkMgGIb4/view?usp=sharing"
+                    "https://drive.google.com/file/d/1U7K1OdqqZxSeizEzWvjrkuovCvadszUR/view?usp=sharing"
                   }
                   target="_blank"
                   className="flex-1"
@@ -91,7 +91,7 @@ const HeroSection = () => {
                   <BoxReveal delay={2} width="100%" >
                     <Button className="flex items-center gap-2 w-full">
                       <File size={24} />
-                      <p>Resume</p>
+                      <p>Mi Currículum</p>
                     </Button>
                   </BoxReveal>
                 </Link>
@@ -103,7 +103,7 @@ const HeroSection = () => {
                           variant={"outline"}
                           className="block w-full overflow-hidden"
                         >
-                          Hire Me
+                          Crontrátame
                         </Button>
                       </Link>
                     </TooltipTrigger>

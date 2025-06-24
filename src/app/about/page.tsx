@@ -16,6 +16,8 @@ import {
   FaReact,
   FaVuejs,
   FaYarn,
+  FaAngular,
+  FaJava
 } from "react-icons/fa6";
 import {
   RiFirebaseFill,
@@ -32,6 +34,8 @@ import {
   SiTypescript,
   SiVercel,
   SiVisualstudiocode,
+  SiSelenium,
+  SiMicrosoftazure
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
@@ -68,6 +72,41 @@ const CONTACT_LINKS = [
 ];
 
 const TOOLS = [
+  // Añade Java
+  {
+    name: "Java",
+    content: "Lenguaje versátil para desarrollo backend y microservicios.",
+    icon: <FaJava size={"50px"} color="#007396" />, // Asegúrate de importar DiJava (si existe)
+    color: "#007396",
+  },
+  // Añade Spring Boot
+  {
+    name: "Spring Boot",
+    content: "Framework líder para construir microservicios y APIs RESTful en Java.",
+    icon: <FaJava size={"50px"} color="#6DB33F" />, // Puedes usar el icono de Java o buscar uno de Spring
+    color: "#6DB33F",
+  },
+  // Añade Angular
+  {
+    name: "Angular",
+    content: "Plataforma para construir aplicaciones web robustas y dinámicas.",
+    icon: <FaAngular size={"50px"} color="#DD0031" />, // Asegúrate de importar FaAngular (si existe)
+    color: "#DD0031",
+  },
+  // Añade Selenium (para tu rol de QA Tester)
+  {
+    name: "Selenium",
+    content: "Herramienta para automatización de pruebas web.",
+    icon: <SiSelenium size={"50px"} color="#43B02A" />, // Buscar si existe SiSelenium
+    color: "#43B02A",
+  },
+  // Añade Azure AI (para tu interés en IA)
+  {
+    name: "Azure AI",
+    content: "Servicios de inteligencia artificial en la nube de Microsoft Azure.",
+    icon: <SiMicrosoftazure size={"50px"} color="#0078D4" />, // Buscar si existe SiMicrosoftazure
+    color: "#0078D4",
+  },
   {
     name: "JavaScript",
     content: "JavaScript is a high-level, interpreted programming language",
@@ -292,7 +331,7 @@ function Page() {
             <p className="mb-10">
                 Mi experiencia incluye el desarrollo de plataformas como Emazon (una tienda virtual con microservicios de Stock y Usuarios) y la aplicación gamificada CodeQuest para mejorar la lógica de programación con mentoría AI. Actualmente, además de mis estudios en Ingeniería de Sistemas, contribuyo como QA Tester en Servicios Nutresa, realizando pruebas unitarias y automatizadas con Selenium y Gherkin en Java. Siempre estoy en constante aprendizaje, con un enfoque en la inteligencia artificial y soluciones en la nube.
             </p>
-            <p className="mb-10"> {/* Opcional: una tercera frase para tus intereses si el original tenía 3 párrafos */}
+            <p className="mb-10"> 
                 Cuando no estoy inmerso en el código, disfruto [Tus intereses/hobbies aquí, por ejemplo: explorando nuevas tecnologías, leyendo sobre IA, o disfrutando de la naturaleza en Medellín].
             </p>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
